@@ -11,6 +11,9 @@ gem 'sprockets', '2.11.0'
 gem 'will_paginate', '~> 3.0.5'
 gem 'will_paginate-bootstrap'
 
+# adding simple_form for adding places
+gem 'simple_form'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
