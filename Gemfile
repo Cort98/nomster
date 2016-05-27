@@ -14,6 +14,9 @@ gem 'will_paginate-bootstrap'
 # adding simple_form for adding places
 gem 'simple_form'
 
+# adding user authentication with devise
+gem 'devise'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
