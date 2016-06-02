@@ -17,6 +17,11 @@ gem 'simple_form'
 # adding user authentication with devise
 gem 'devise', '>= 3.2.4'
 
+#adding a gem for geocoding
+gem 'geocoder', '1.3.4'
+
+gem "figaro", ">= 1.0.0"
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
