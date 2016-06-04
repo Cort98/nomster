@@ -45,3 +45,18 @@
 <%= f.input :rating %>
 <%= f.submit "Add a Comment", class: 'btn btn-primary'%>
 <% end %>
+
+<br class='clear'/>
+
+<div class="booyah-box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+  <h1>Comments</h1>
+  <% @place.comments.each do |comment| %>
+  <div>
+    <blockquote>
+      <b><%= comment.rating %></b> -
+      <% comment.message %>
+      <small><%= comment.user.email %></small>
+    </div>
+    <% end %>
+  </div>
+  
