@@ -22,12 +22,17 @@ gem 'geocoder', '1.3.4'
 
 gem "figaro", ">= 1.0.0"
 
+#gem for uploading images
+gem 'carrierwave'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+#adding fog to configure AWS
+gem 'fog'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
